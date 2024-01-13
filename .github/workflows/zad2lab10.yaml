@@ -38,7 +38,7 @@ jobs:
         id: checkout
         uses: actions/checkout@v4
         with:
-          repository: scoutertf2/fullstack-zad2-config
+          repository: w-sarnowski/fullstack-zad2-config
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
       - run: |
           git config user.name w-sarnowski
